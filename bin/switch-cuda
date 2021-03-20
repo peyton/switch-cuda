@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+# compatibility with zsh sh emulation
+if type emulate >/dev/null 2>/dev/null; then 
+    emulate sh -c '. switch-cuda.bash';
+else
+    . switch-cuda.bash
+fi

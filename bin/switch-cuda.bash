@@ -27,7 +27,6 @@
 
 set -e
 
-
 # ensure that the script has been sourced rather than just executed
 if [[ "${BASH_SOURCE[0]}" = "${0}" ]]; then
     echo "Please use 'source' to execute switch-cuda.sh!"
